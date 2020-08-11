@@ -1,0 +1,35 @@
+{
+  "name": "pdwjun/ding",
+  "description": "钉钉消息推送，每分钟20条推送",
+  "type": "yii2-extension",
+  "autoload": {
+    "psr-4": {
+      "pdwjun\\": "src/"
+    }
+  },
+  "require": {
+    "yiisoft/yii2": "~2.0.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jason Wang",
+      "email": "pdwjun@126.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://composer.lingmou.ai:8032"
+    },
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    },
+    {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  ]
+}
